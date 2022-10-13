@@ -105,8 +105,7 @@ main {
     visibility: hidden;
 }
 
-#view:hover div,
-#view:hover img {
+#view:hover * {
     visibility: visible;
 }
 
