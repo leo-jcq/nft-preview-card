@@ -2,51 +2,50 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
 
-  <title>Frontend Mentor | NFT preview card component</title>
+  <title>NFT preview card</title>
 </head>
 
 <body>
+
   <main>
-    <!-- Main image -->
-    <div id="main-image">
+    <div id="image-container">
       <img src="./images/image-equilibrium.jpg" alt="Equilibrium">
       <div id="view">
-        <div></div>
         <img src="./images/icon-view.svg" alt="">
       </div>
     </div>
-
-    <!-- Text Section -->
     <h1>Equilibrium #3429</h1>
+
     <p>Our Equilibrium collection promotes balance and calm.</p>
 
-    <!-- Price and time left -->
-    <div>
+    <div id="price-container">
       <div id="price">
         <img src="./images/icon-ethereum.svg" alt="">
-        <p>0.041 ETH</p>
+        <span>0.041 ETH</span>
       </div>
-      <div id="time">
+      <div id="time-left">
         <img src="./images/icon-clock.svg" alt="">
-        <p>3 days left</p>
+        <span>3 days left</span>
       </div>
     </div>
 
-    <!-- Creator section -->
-    <hr>
+    <div id="separator"></div>
 
-    <div id="creator">
-      <img src="./images/image-avatar.png" alt="Jules Wyvern">
-      <p>Creation of <span>Jules Wyvern</span></p>
+    <div id="creator-container">
+      <img src="./images/image-avatar.png" alt="">
+      <span>
+        Creation of
+        <span>Jules Wyvern</span>
+      </span>
     </div>
-
   </main>
+
 </body>
 
 </html>
